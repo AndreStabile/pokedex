@@ -1,0 +1,2 @@
+# pokedex
+Fully functional PokéDex

@@ -1,1 +1,92 @@
-<h1>Hello!</h1>
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Pokedex</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link href="index.scss" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1>Hello!</h1>
+
+    <div class="container">
+        <div class="row">
+            <div id="moldura-esquerdo" class="inline">
+                <div id="interno-esquerdo">
+                    <div class="luzes d-flex flex-row">
+                        <div id="luz-grande" class="d-flex align-items-center rounded-circle">
+                            <div id="luz-interna" class="d-flex align-items-center rounded-circle"></div>
+                        </div>
+                        <div class="semaforo d-flex flex-row">
+                            <div class="semaforo-superior rounded-circle vermelho"></div>
+                            <div class="semaforo-superior rounded-circle amarelo"></div>
+                            <div class="semaforo-superior rounded-circle verde"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="fundo-tela" class="mx-auto mt-3">
+                    <div class="row">
+                        <div class="mx-auto d-flex flex-row align-self-center mt-1">
+                            <div class="luz-topo-tela rounded-circle vermelho"></div>
+                            <div class="luz-topo-tela rounded-circle vermelho"></div>
+                        </div>
+                    </div>
+                    <div id="tela" class="mx-auto mt-1"></div>
+                    <div class="row mt-2">
+                        <div class="col-md-4 d-flex flex-row-reverse">
+                            <div id="indicador-tela" class="rounded-circle vermelho"></div>
+                        </div>
+                        <div class="col-md-offset-2 col-md-6 d-flex flex-row-reverse justify-content-center">
+                            <ul class="">
+                                <li class="alto-falante" id="falante-1"></li>
+                                <li class="alto-falante" id="falante-2"></li>
+                                <li class="alto-falante" id="falante-3"></li>
+                                <li class="alto-falante" id="falante-4"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="row mt-2 d-flex flex-row align-items-center">
+                                <div class="col-md-3 ml-1">
+                                    <div id="botao-inferior" class="rounded-circle azul"></div>
+                                </div>
+                                <div class="col-md-4 no-gutter">
+                                    <div class="botao-elipse rounded-circle verde-claro mx-auto d-flex flex-row align-self-center"></div>
+                                </div>
+                                <div class="col-md-4 no-gutter">
+                                    <div class="botao-elipse rounded-circle laranja mx-auto"></div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 ">
+                                    <div class="tela-inferior amarelo"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="eixo-abertura" class="inline"></div>
+            <div id="moldura-direito" class="inline align-self-end"></div>
+        </div>
+    </div>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+</body>

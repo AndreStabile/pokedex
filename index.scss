@@ -31,12 +31,22 @@ li {
 }
 
 #interno-esquerdo {
-    width: 20em;
+    width: 10em;
     height: 6.375em;
-    background: #f00;
     border: 0em solid #000;
     border-width: 0em 0em 0.063em 0em;
     border-radius: 25px 0px 0px;
+    border-bottom-right-radius: 5.5em 2.5em;
+    z-index: 100;
+}
+
+#interno-esquerdo-2 {
+    width: 10em;
+    height: 2.7em;
+    margin-left: -0.5em;
+    border: 0em solid #000;
+    border-width: 0.063em 0em 0em 0em;
+    border-top-left-radius: 5.5em 2.5em;
     z-index: 100;
 }
 
@@ -162,4 +172,43 @@ li {
     height: 3em;
     border: 0.063em solid #000;
     border-radius: 0.5em; 
+}
+
+.cross {
+    height: 5em;
+    width: 1.75em;
+    position: absolute;
+    border: 0.063em solid #000;
+    border-radius: 0.25em; 
+    background: #666;
+}
+
+.column {
+    z-index: 100;
+}
+
+.line {
+    height: 1.75em;
+    width: 5em;
+    z-index: 101;
+}
+
+
+
+
+
+
+.teste {
+    width: 4em;
+    height: 4em;
+    border: 0.063em solid #000;
+    border-bottom-right-radius: 4em 4em;
+}
+.teste2 {
+    width: 2.5em;
+    height: 2.5em;
+    margin-left: -0.4em;
+    background: #fff;    
+    border: 0.063em solid #000;   
+    border-top-left-radius: 2em 2em;
 }

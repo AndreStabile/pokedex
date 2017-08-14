@@ -1,9 +1,13 @@
-li {
-    list-style: none;
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+
+body {
+    background: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 3.5em;
 }
 
-.inline {
-    display: inline-block;
+a {
+    color: #656B71;
 }
 
 .no-gutter {
@@ -11,204 +15,19 @@ li {
     padding-right: 0;
 }
 
-#moldura-esquerdo {
-    width: 20em;
-    height: 30em;
-    background: #f00;
-    border: 0.063em solid #000;
-    border-radius: 25px 0px 0px 25px;
-    z-index: 1;
+.title {
+    font-weight: bold;
 }
 
-#moldura-direito {
-    width: 20em;
-    height: 26.25em;
-    background: #f00;
-    border: 0em solid #000;
-    border-width: 0.063em 0.063em 0.063em 0em;
-    border-radius: 0px 0px 25px;
-    z-index: 1;
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 3.5em;
+    line-height: 3.5em; /* Vertically center the text there */
 }
 
-#interno-esquerdo {
-    width: 10em;
-    height: 6.375em;
-    border: 0em solid #000;
-    border-width: 0em 0em 0.063em 0em;
-    border-radius: 25px 0px 0px;
-    border-bottom-right-radius: 5.5em 2.5em;
-    z-index: 100;
-}
-
-#interno-esquerdo-2 {
-    width: 10em;
-    height: 2.7em;
-    margin-left: -0.5em;
-    border: 0em solid #000;
-    border-width: 0.063em 0em 0em 0em;
-    border-top-left-radius: 5.5em 2.5em;
-    z-index: 100;
-}
-
-#eixo-abertura {
-    width: 2em;
-    height: 30em;
-    background: #f00;
-    border: 0em solid #000;
-    border-width: 0.063em 0.063em 0.063em 0em;
-    z-index: 1;
-}
-
-#luz-grande {
-    width: 5em;
-    height: 5em;
-    background: #fff;
-    border: 0.063em solid #000;
-    margin: 0.5em;
-    position: relative;
-    z-index: 10;
-}
-
-#luz-interna {
-    width: 4em;
-    height: 4em;
-    background: #0cf4ff;
-    border: 0.063em solid #000;
-    margin: 0.5em;
-    position: relative;
-    z-index: 100;
-}
-
-.semaforo {
-    margin: 0.5em 0.5em 0.5em 0.25em; 
-}
-
-.semaforo-superior {
-    width: 1.5em;
-    height: 1.5em;
-    border: 0.063em solid #000;
-    margin-right: 0.5em;
-    z-index: 100;
-}
-
-.vermelho {
-    background: #f00;
-}
-
-.amarelo {
-    background: #ff0;
-}
-
-.verde {
-    background: #008000;
-}
-
-.verde-claro {
-    background: #59f00b;
-}
-
-.azul {
-    background: #00f;
-}
-
-.laranja {
-    background: #ff5f00;
-}
-
-#fundo-tela {
-    width: 18.25em;
-    height: 16em;
-    background: #F4F4F4;
-    border: 0.063em solid #000;
-    border-radius: 0.5em;
-}
-
-.luz-topo-tela {
-    width: 0.75em;
-    height: 0.75em;
-    border: 0.063em solid #000;
-    margin-right: 0.5em;
-    z-index: 100;
-}
-
-#tela {
-    width: 16.875em;
-    height: 11.625em;
-    background: #fff;
-    border: 0.063em solid #000;
-    border-radius: 0.5em;
-}
-
-#indicador-tela {
-    width: 1.75em;
-    height: 1.75em;
-    border: 0.063em solid #000;
-}
-
-.alto-falante {
-    width: 4em;
-    height: 0.25em;
-    background: #000;
-    border: 0.063em solid #000;
-    border-radius: 0.125em; 
-    margin-top: 0.175em;
-}
-
-#botao-inferior {
-    width: 2em;
-    height: 2em;
-    border: 0.063em solid #000;
-}
-
-.botao-elipse {
-    width: 75%;
-    height: 0.75em;
-    border: 0.063em solid #000;
-    border-radius: 0.725em; 
-    margin-top: 0.175em;
-}
-
-.tela-inferior {
-    height: 3em;
-    border: 0.063em solid #000;
-    border-radius: 0.5em; 
-}
-
-.cross {
-    height: 5em;
-    width: 1.75em;
-    position: absolute;
-    border: 0.063em solid #000;
-    border-radius: 0.25em; 
-    background: #666;
-}
-
-.column {
-    z-index: 100;
-}
-
-.line {
-    height: 1.75em;
-    width: 5em;
-    z-index: 101;
-}
-
-
-
-
-
-
-.teste {
-    width: 4em;
-    height: 4em;
-    border: 0.063em solid #000;
-    border-bottom-right-radius: 4em 4em;
-}
-.teste2 {
-    width: 2.5em;
-    height: 2.5em;
-    margin-left: -0.4em;
-    background: #fff;    
-    border: 0.063em solid #000;   
-    border-top-left-radius: 2em 2em;
+#searchPokemon {
+    width: 25em;
 }
